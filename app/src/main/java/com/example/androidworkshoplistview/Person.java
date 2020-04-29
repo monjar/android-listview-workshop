@@ -1,6 +1,8 @@
 package com.example.androidworkshoplistview;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable {
     private String name, birthday, sex;
 
     public Person(String name, String birthday, String sex) {
